@@ -4,26 +4,7 @@
     
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
-    <script>
-        function details()
-        { 
-            document.getElementById('details').style.display ='block';
-            document.getElementById('plans').style.display ='none';
-            document.getElementById('classes').style.display ='none';
-        }
-        function plans()
-        {   
-            document.getElementById('details').style.display ='none';
-            document.getElementById('plans').style.display ='block';
-            document.getElementById('classes').style.display ='none';
-        }
-        function classes()
-        {  
-            document.getElementById('details').style.display ='none';
-            document.getElementById('plans').style.display ='none';
-            document.getElementById('classes').style.display ='block';
-        }
-    </script>
+    
 </head>
 
 <body>
@@ -289,6 +270,26 @@
      
     
 </div>
+    <script>
+        function details()
+        { 
+            document.getElementById('details').style.display ='block';
+            document.getElementById('plans').style.display ='none';
+            document.getElementById('classes').style.display ='none';
+        }
+        function plans()
+        {   
+            document.getElementById('details').style.display ='none';
+            document.getElementById('plans').style.display ='block';
+            document.getElementById('classes').style.display ='none';
+        }
+        function classes()
+        {  
+            document.getElementById('details').style.display ='none';
+            document.getElementById('plans').style.display ='none';
+            document.getElementById('classes').style.display ='block';
+        }
+    </script>
 </body>
 
 
