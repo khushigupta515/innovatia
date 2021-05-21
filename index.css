@@ -1,3 +1,6 @@
+body.html{height: 100%;}
+
+
 body{
     background: #E6E6FA;
     margin: 20px;
@@ -25,7 +28,7 @@ body{
 }
 
 #maindiv button:active {
-    background: #E6E6FA;
+    color: blue;
 }
 nav .fa{
     padding: 10px;
@@ -37,3 +40,44 @@ nav a{
 }
 h1,h2
 {font-weight: lighter;}
+ table
+{
+    width: 100%;
+    padding: 1%;
+    margin: 0.3%;
+    border: none;
+    background: #E6E6FA;
+}
+thead th {
+    padding: 10px;
+    background: #ADD8E6;
+    font-size: smaller;
+}
+tbody td {
+    padding: 5px;
+    font-size: smaller;
+    padding: 10px;
+}
+#maindiv #plans .masterdiv .heading{
+   font-weight: bolder;
+    background: #ADD8E6;
+    font-size: smaller;
+    padding:1%;
+    margin:0.2%;
+    
+}
+
+#maindiv #plans .masterdiv .content{
+
+    display: inline-block;
+    padding-left: 2%;
+    font-size: smaller;
+
+}
+#maindiv #plans .masterdiv{
+    background: #E6E6FA;
+}
+#plans
+{
+    display:none;
+}
